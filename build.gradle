@@ -57,3 +57,7 @@ sourceSets {
     main.resources.srcDirs = ['resources']
     test.kotlin.srcDirs = ['test']
 }
+
+kotlin {
+    jvmToolchain(11)
+}
